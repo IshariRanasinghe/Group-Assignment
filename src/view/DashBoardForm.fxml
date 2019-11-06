@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainForm" prefHeight="400.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardController">
+   <children>
+      <Label layoutX="111.0" layoutY="25.0" text="DashBoard">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Button fx:id="btnAdd" layoutX="25.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnAdd_OnAction" prefHeight="72.0" prefWidth="73.0" text="Add" />
+      <Button fx:id="btnDelete" layoutX="111.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnDelete_OnAction" prefHeight="72.0" prefWidth="73.0" text="Delete" />
+      <Button fx:id="btnSearch" layoutX="317.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnSearch_OnAction" prefHeight="72.0" prefWidth="73.0" text="Search" />
+      <Button fx:id="btnUpdate" layoutX="212.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnUpdate_OnAction" prefHeight="72.0" prefWidth="73.0" text="Update" />
+   </children>
+</AnchorPane>
